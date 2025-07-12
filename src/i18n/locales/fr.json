@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "Données de Marché Binance",
+    "subtitle": "Tableau de bord de trading crypto en temps réel",
+    "description": "Données de marché de crypto-monnaies en temps réel avec filtrage avancé et visualisation"
+  },
+  "header": {
+    "lastUpdated": "Mis à jour à {{time}}",
+    "refresh": "Actualiser",
+    "refreshing": "Actualisation..."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "markets": "Marchés",
+    "settings": "Paramètres"
+  },
+  "theme": {
+    "light": "Mode Clair",
+    "dark": "Mode Sombre",
+    "switchTo": "Passer en mode {{mode}}"
+  },
+  "language": {
+    "english": "English",
+    "french": "Français",
+    "switchTo": "Passer en {{language}}"
+  },
+  "currencySelector": {
+    "title": "Sélectionner une Paire de Trading",
+    "subtitle": "Choisissez une paire de crypto-monnaies à analyser",
+    "popularPairs": "Paires de Trading Populaires",
+    "customPair": "Paire de Trading Personnalisée",
+    "placeholder": "ex. BTCUSDT",
+    "selectPlaceholder": "Sélectionner une paire de trading",
+    "getMarketData": "Obtenir les Données de Marché",
+    "fetchingData": "Récupération des données...",
+    "errorLoadingPairs": "Erreur lors du chargement des paires : {{error}}",
+    "availablePairs": "Paires de trading disponibles"
+  },
+  "marketData": {
+    "title": "Données de Marché {{symbol}}",
+    "subtitle": "Informations de marché crypto en temps réel",
+    "currentPrice": "Prix Actuel",
+    "change24h": "Variation 24h",
+    "high24h": "Plus Haut 24h",
+    "low24h": "Plus Bas 24h",
+    "volume24h": "Volume 24h",
+    "volumeUsdt": "Volume 24h (USDT)",
+    "tradeCount": "Nombre de Trades",
+    "weightedAvgPrice": "Prix Moyen Pondéré",
+    "bidPrice": "Prix d'Achat",
+    "askPrice": "Prix de Vente",
+    "tradingActivity": "Activité de Trading",
+    "orderBook": "Carnet d'Ordres",
+    "quantity": "Qté : {{qty}}",
+    "errorLoading": "Erreur lors du chargement des données de marché : {{error}}"
+  },
+  "statistics": {
+    "totalTrades24h": "Total des Trades (24h)",
+    "filteredTrades": "Trades Filtrés",
+    "matchRate": "Taux de Correspondance"
+  },
+  "filters": {
+    "title": "Filtres de Trade",
+    "timeRange": "Plage de Temps",
+    "priceRange": "Plage de Prix",
+    "quantityRange": "Plage de Quantité",
+    "tradeType": "Type de Trade",
+    "startTime": "Heure de Début",
+    "endTime": "Heure de Fin",
+    "minPrice": "Prix Min",
+    "maxPrice": "Prix Max",
+    "minQuantity": "Quantité Min",
+    "maxQuantity": "Quantité Max",
+    "all": "Tous",
+    "buy": "Achat",
+    "sell": "Vente",
+    "reset": "Réinitialiser les Filtres",
+    "apply": "Appliquer les Filtres",
+    "showing": "Affichage de {{filtered}} sur {{total}} trades",
+    "percentage": "{{percentage}}% visible"
+  },
+  "table": {
+    "time": "Heure",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "total": "Total",
+    "type": "Type",
+    "buy": "Achat",
+    "sell": "Vente",
+    "noData": "Aucune donnée de trade disponible",
+    "loading": "Chargement des trades...",
+    "sortBy": "Trier par {{column}}",
+    "ascending": "Croissant",
+    "descending": "Décroissant",
+    "recentTrades": "Trades Récents ({{symbol}})",
+    "totalTrades": "Total des Trades",
+    "showing": "Affichage de {{total}} trades"
+  },
+  "charts": {
+    "title": "Graphiques & Visualisation",
+    "subtitle": "Visualisation interactive des données",
+    "priceChart": "Graphique des Prix {{symbol}}",
+    "volumeChart": "Graphique du Volume {{symbol}}",
+    "quantityChart": "Distribution des Quantités {{symbol}}",
+    "noData": "Aucune donnée de graphique disponible",
+    "controls": {
+      "price": "Prix",
+      "volume": "Volume",
+      "quantity": "Quantité",
+      "yScale": "Échelle Y",
+      "linear": "Linéaire",
+      "log": "Log",
+      "yMin": "Y-Min",
+      "yMax": "Y-Max",
+      "auto": "Auto",
+      "reset": "Réinitialiser"
+    },
+    "tooltip": {
+      "time": "Heure",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "volume": "Volume",
+      "type": "Type",
+      "buy": "Achat",
+      "sell": "Vente"
+    }
+  },
+  "chart": {
+    "title": "Graphique des Prix",
+    "priceOverTime": "Prix dans le Temps",
+    "volume": "Volume",
+    "noData": "Aucune donnée de graphique disponible",
+    "loading": "Chargement du graphique...",
+    "scaleLinear": "Linéaire",
+    "scaleLog": "Logarithmique",
+    "autoScale": "Échelle Auto",
+    "customRange": "Plage Personnalisée"
+  },
+  "view": {
+    "tableView": "Vue Tableau",
+    "chartView": "Vue Graphique"
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "sur",
+    "showing": "Affichage {{start}}-{{end}} sur {{total}} entrées",
+    "itemsPerPage": "Éléments par page",
+    "first": "Premier",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "last": "Dernier"
+  },
+  "loading": {
+    "default": "Chargement...",
+    "marketData": "Récupération des données de marché...",
+    "trades": "Chargement des trades...",
+    "chart": "Chargement du graphique...",
+    "pairs": "Chargement des paires disponibles..."
+  },
+  "error": {
+    "general": "Une erreur s'est produite",
+    "network": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "apiError": "Erreur API : {{message}}",
+    "loadingData": "Erreur lors du chargement des données",
+    "invalidPair": "Paire de trading invalide",
+    "noData": "Aucune donnée disponible",
+    "tryAgain": "Réessayer",
+    "refresh": "Actualiser la Page",
+    "goHome": "Aller à l'Accueil",
+    "somethingWentWrong": "Quelque chose s'est mal passé",
+    "errorBoundary": {
+      "title": "Oups ! Quelque chose s'est mal passé",
+      "description": "Nous avons rencontré une erreur inattendue. Veuillez essayer d'actualiser la page ou contacter le support si le problème persiste.",
+      "technicalDetails": "Détails Techniques",
+      "showDetails": "Afficher les Détails",
+      "hideDetails": "Masquer les Détails"
+    }
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "ok": "OK",
+    "yes": "Oui",
+    "no": "Non",
+    "loading": "Chargement",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "mode": "Mode"
+  }
+}

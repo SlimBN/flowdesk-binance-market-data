@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "Binance Market Data",
+    "subtitle": "Real-time cryptocurrency trading dashboard",
+    "description": "Real-time cryptocurrency market data and trading information with advanced filtering and visualization"
+  },
+  "header": {
+    "lastUpdated": "Updated {{time}}",
+    "refresh": "Refresh",
+    "refreshing": "Refreshing..."
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "markets": "Markets",
+    "settings": "Settings"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "switchTo": "Switch to {{mode}} mode"
+  },
+  "language": {
+    "english": "English",
+    "french": "Français",
+    "switchTo": "Switch to {{language}}"
+  },
+  "currencySelector": {
+    "title": "Select Trading Pair",
+    "subtitle": "Choose a cryptocurrency pair to analyze",
+    "popularPairs": "Popular Trading Pairs",
+    "customPair": "Custom Trading Pair",
+    "placeholder": "e.g., BTCUSDT",
+    "selectPlaceholder": "Select a trading pair",
+    "getMarketData": "Get Market Data",
+    "fetchingData": "Fetching Data...",
+    "errorLoadingPairs": "Error loading pairs: {{error}}",
+    "availablePairs": "Available Trading Pairs"
+  },
+  "marketData": {
+    "title": "{{symbol}} Market Data",
+    "subtitle": "Real-time cryptocurrency market information",
+    "currentPrice": "Current Price",
+    "change24h": "24h Change",
+    "high24h": "24h High",
+    "low24h": "24h Low",
+    "volume24h": "24h Volume",
+    "volumeUsdt": "24h Volume (USDT)",
+    "tradeCount": "Trade Count",
+    "weightedAvgPrice": "Weighted Avg Price",
+    "bidPrice": "Bid Price",
+    "askPrice": "Ask Price",
+    "tradingActivity": "Trading Activity",
+    "orderBook": "Order Book",
+    "quantity": "Qty: {{qty}}",
+    "errorLoading": "Error loading market data: {{error}}"
+  },
+  "statistics": {
+    "totalTrades24h": "Total Trades (24h)",
+    "filteredTrades": "Filtered Trades",
+    "matchRate": "Match Rate"
+  },
+  "filters": {
+    "title": "Trade Filters",
+    "timeRange": "Time Range",
+    "priceRange": "Price Range",
+    "quantityRange": "Quantity Range",
+    "tradeType": "Trade Type",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "minQuantity": "Min Quantity",
+    "maxQuantity": "Max Quantity",
+    "all": "All",
+    "buy": "Buy",
+    "sell": "Sell",
+    "reset": "Reset Filters",
+    "apply": "Apply Filters",
+    "showing": "Showing {{filtered}} of {{total}} trades",
+    "percentage": "{{percentage}}% visible"
+  },
+  "table": {
+    "time": "Time",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "type": "Type",
+    "buy": "Buy",
+    "sell": "Sell",
+    "noData": "No trade data available",
+    "loading": "Loading trades...",
+    "sortBy": "Sort by {{column}}",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "recentTrades": "Recent Trades ({{symbol}})",
+    "totalTrades": "Total Trades",
+    "showing": "Showing {{total}} trades"
+  },
+  "charts": {
+    "title": "Charts & Visualization",
+    "subtitle": "Interactive data visualization",
+    "priceChart": "{{symbol}} Price Chart",
+    "volumeChart": "{{symbol}} Volume Chart",
+    "quantityChart": "{{symbol}} Quantity Distribution",
+    "noData": "No chart data available",
+    "controls": {
+      "price": "Price",
+      "volume": "Volume",
+      "quantity": "Quantity",
+      "yScale": "Y-Scale",
+      "linear": "Linear",
+      "log": "Log",
+      "yMin": "Y-Min",
+      "yMax": "Y-Max",
+      "auto": "Auto",
+      "reset": "Reset"
+    },
+    "tooltip": {
+      "time": "Time",
+      "price": "Price",
+      "quantity": "Quantity",
+      "volume": "Volume",
+      "type": "Type",
+      "buy": "Buy",
+      "sell": "Sell"
+    }
+  },
+  "chart": {
+    "title": "Price Chart",
+    "priceOverTime": "Price Over Time",
+    "volume": "Volume",
+    "noData": "No chart data available",
+    "loading": "Loading chart...",
+    "scaleLinear": "Linear",
+    "scaleLog": "Logarithmic",
+    "autoScale": "Auto Scale",
+    "customRange": "Custom Range"
+  },
+  "view": {
+    "tableView": "Table View",
+    "chartView": "Chart View"
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing {{start}}-{{end}} of {{total}} entries",
+    "itemsPerPage": "Items per page",
+    "first": "First",
+    "previous": "Previous",
+    "next": "Next",
+    "last": "Last"
+  },
+  "loading": {
+    "default": "Loading...",
+    "marketData": "Fetching market data...",
+    "trades": "Loading trades...",
+    "chart": "Loading chart...",
+    "pairs": "Loading available pairs..."
+  },
+  "error": {
+    "general": "An error occurred",
+    "network": "Network error. Please check your connection.",
+    "apiError": "API Error: {{message}}",
+    "loadingData": "Error loading data",
+    "invalidPair": "Invalid trading pair",
+    "noData": "No data available",
+    "tryAgain": "Try Again",
+    "refresh": "Refresh Page",
+    "goHome": "Go to Home",
+    "somethingWentWrong": "Something went wrong",
+    "errorBoundary": {
+      "title": "Oops! Something went wrong",
+      "description": "We encountered an unexpected error. Please try refreshing the page or contact support if the problem persists.",
+      "technicalDetails": "Technical Details",
+      "showDetails": "Show Details",
+      "hideDetails": "Hide Details"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "mode": "Mode"
+  }
+}
